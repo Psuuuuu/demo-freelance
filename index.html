@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    
+    body {
+      background: linear-gradient(white, rgba(0, 128, 0, 0.5), rgba(0, 128, 0, 0.3) );
+    }
+    
+  
+  </style>
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">
+        <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/>
+      </svg>Pine_Dev <span style="color: blue; font-weight: 600;"> :) </span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Pine script Indicators</a></li>
+              <li><a class="dropdown-item" href="#">Customized scripts</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Strategy Backtesting</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- this is commment -->
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Crafting Custom Pine Script Solutions</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">At Crafting Custom Pine Script Solutions, we specialize in Pine Script development for TradingView. Our experienced team creates custom indicators, alerts, and trading algorithms tailored to your needs. With a deep understanding of technical analysis, we deliver efficient and precise Pine Script code, giving you a competitive edge in the financial markets. Whether you're an individual trader or an institution, we're your trusted partner for Pine Script excellence.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Get a Quote</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5" >
+        <img src="./chart2.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <!-- next section of page -->
+
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Our Services:</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./bar-chart-line.svg" alt="bar chart" height="30">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Custom Pine Script Indicators</h3>
+          <p>Tailored Indicators: We create custom Pine Script indicators designed specifically to meet your trading strategy requirements.</p>
+          <a href="#" class="btn btn-primary">
+            Get a Quote
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./cpu.svg" alt="cpu" height="30">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Algorithmic Trading Strategies</h3>
+          <p>Algorithmic Trading: Unlock the potential of algorithmic trading with our Pine Script experts who design and implement automated trading strategies.</p>
+          <a href="#" class="btn btn-primary">
+            Get a Quote
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./exclamation-diamond.svg" alt="Alert" height="30">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Responsive Alert Systems</h3>
+          <p>Real-Time Alerts: Stay ahead of the market with our real-time alert systems, customized to notify you of crucial trading opportunities.</p>
+          <a href="#" class="btn btn-primary">
+            Get a Quote
+          </a>
+        </div>        
+      </div>
+    </div>
+  </div>
+  <!-- Carousel -->
+
+  <div class='container'>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./firstimage.PNG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./secondimg.PNG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./third.PNG" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- pricing and footer -->
+
+  <div class="container py-3">
+    <header style="padding-top: 3rem;">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="pb-2 border-bottom">Pricing</h1>
+        <p class="fs-5 text-body-secondary">At Crafting Custom Pine Script Solutions, we understand the importance of transparent and competitive pricing. Our pricing structure is designed to offer you flexibility and value for your investment. We offer competitive rates for our Pine Script development services, ensuring that you receive top-quality coding without breaking the bank. Whether you require a one-time project or ongoing support, our pricing options are tailored to accommodate your specific needs. Contact us today for a personalized quote and let us help you bring your trading strategies to life while staying within your budget.</p>
+      </div>
+    </header>
+  
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/script</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Add single or multiple alerts to existing indicator or strategy.</li>
+                <li>Delivery of order in 1 day maximum.</li>
+                <li>1 revisions will be given in maximum.</li>
+                <li>Source code</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">I'm in</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro+</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$35<small class="text-body-secondary fw-light">/script</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Add single or multiple alerts to existing indicator or strategy.</li>
+                <li>Modify the existing indicator and add alerts to it.</li>
+                <li>Priority email support</li>
+                <li>Delivery of order in 2 days maximum.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Ultra Blind Pro Max🔥</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$999<small class="text-body-secondary fw-light">/script</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Code the custom indicator with single or multiple alerts.</li>
+                <li>15 GB of storage</li>
+                <li>Delivery of order in 3 days maximum.</li>
+                <li>2 revisions will be given in maximum.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+    </main>
+  
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="./badge-tm-fill.svg" alt="" width="30" height="30">
+          <small class="d-block mb-3 text-body-secondary">© 2017–2023</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- bootstrap script tag -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
